@@ -15,8 +15,8 @@ This is also RealityKit 2's feature. Please check the code.
 
 This is a minimal implementation. Please modify anything you want, and create your own apps.
 
-![Image](https://user-images.githubusercontent.com/66309582/158568884-1255d314-e7f5-4d36-ad6b-c934b198b50f.png)
-![Image](https://user-images.githubusercontent.com/66309582/158569000-a79de45c-6aec-4e85-b7d2-107dcfb3b4b1.png)
+![Image](https://user-images.githubusercontent.com/66309582/158569315-dd4cf888-67e8-46c6-a14c-62ef2e7a32b7.png)
+![Image](https://user-images.githubusercontent.com/66309582/158569339-116953f2-05d3-4bb7-8e04-9a95e6197baf.png)
 
 ![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)
 
