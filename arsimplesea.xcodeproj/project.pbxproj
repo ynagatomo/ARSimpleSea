@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA02A86C27E15A7D001855C6 /* arsimpleseaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA02A86B27E15A7D001855C6 /* arsimpleseaApp.swift */; };
+		BA02A86E27E15A7D001855C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA02A86D27E15A7D001855C6 /* ContentView.swift */; };
+		BA02A87027E15A81001855C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA02A86F27E15A81001855C6 /* Assets.xcassets */; };
+		BA02A87327E15A81001855C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA02A87227E15A81001855C6 /* Preview Assets.xcassets */; };
+		BA02A87B27E160C5001855C6 /* ARSeaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA02A87A27E160C5001855C6 /* ARSeaView.swift */; };
+		BA02A87D27E16243001855C6 /* ARContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA02A87C27E16243001855C6 /* ARContainerView.swift */; };
+		BA2557CC27E19A9B00E01F76 /* CustomShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = BA2557CB27E19A9B00E01F76 /* CustomShader.metal */; };
+		BAAF6BAE27E1C46700119D79 /* sea.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BAAF6BAD27E1C46700119D79 /* sea.usdz */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA02A86827E15A7D001855C6 /* arsimplesea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = arsimplesea.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA02A86B27E15A7D001855C6 /* arsimpleseaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arsimpleseaApp.swift; sourceTree = "<group>"; };
+		BA02A86D27E15A7D001855C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BA02A86F27E15A81001855C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA02A87227E15A81001855C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA02A87927E15AC0001855C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BA02A87A27E160C5001855C6 /* ARSeaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSeaView.swift; sourceTree = "<group>"; };
+		BA02A87C27E16243001855C6 /* ARContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARContainerView.swift; sourceTree = "<group>"; };
+		BA2557CB27E19A9B00E01F76 /* CustomShader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = CustomShader.metal; sourceTree = "<group>"; };
+		BAAF6BAD27E1C46700119D79 /* sea.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = sea.usdz; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA02A86527E15A7D001855C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA02A85F27E15A7D001855C6 = {
+			isa = PBXGroup;
+			children = (
+				BA02A86A27E15A7D001855C6 /* arsimplesea */,
+				BA02A86927E15A7D001855C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA02A86927E15A7D001855C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA02A86827E15A7D001855C6 /* arsimplesea.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA02A86A27E15A7D001855C6 /* arsimplesea */ = {
+			isa = PBXGroup;
+			children = (
+				BA2557C927E1901500E01F76 /* Views */,
+				BA2557CA27E1917500E01F76 /* Shader */,
+				BA02A87E27E1645D001855C6 /* Assets */,
+				BA02A87927E15AC0001855C6 /* Info.plist */,
+				BA02A86F27E15A81001855C6 /* Assets.xcassets */,
+				BA02A87127E15A81001855C6 /* Preview Content */,
+			);
+			path = arsimplesea;
+			sourceTree = "<group>";
+		};
+		BA02A87127E15A81001855C6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BA02A87227E15A81001855C6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA02A87E27E1645D001855C6 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				BAAF6BAD27E1C46700119D79 /* sea.usdz */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		BA2557C927E1901500E01F76 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BA02A86B27E15A7D001855C6 /* arsimpleseaApp.swift */,
+				BA02A86D27E15A7D001855C6 /* ContentView.swift */,
+				BA02A87C27E16243001855C6 /* ARContainerView.swift */,
+				BA02A87A27E160C5001855C6 /* ARSeaView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BA2557CA27E1917500E01F76 /* Shader */ = {
+			isa = PBXGroup;
+			children = (
+				BA2557CB27E19A9B00E01F76 /* CustomShader.metal */,
+			);
+			path = Shader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA02A86727E15A7D001855C6 /* arsimplesea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA02A87627E15A81001855C6 /* Build configuration list for PBXNativeTarget "arsimplesea" */;
+			buildPhases = (
+				BA02A86427E15A7D001855C6 /* Sources */,
+				BA02A86527E15A7D001855C6 /* Frameworks */,
+				BA02A86627E15A7D001855C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = arsimplesea;
+			productName = arsimplesea;
+			productReference = BA02A86827E15A7D001855C6 /* arsimplesea.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA02A86027E15A7D001855C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					BA02A86727E15A7D001855C6 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = BA02A86327E15A7D001855C6 /* Build configuration list for PBXProject "arsimplesea" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA02A85F27E15A7D001855C6;
+			productRefGroup = BA02A86927E15A7D001855C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA02A86727E15A7D001855C6 /* arsimplesea */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA02A86627E15A7D001855C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA02A87327E15A81001855C6 /* Preview Assets.xcassets in Resources */,
+				BA02A87027E15A81001855C6 /* Assets.xcassets in Resources */,
+				BAAF6BAE27E1C46700119D79 /* sea.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA02A86427E15A7D001855C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA02A87B27E160C5001855C6 /* ARSeaView.swift in Sources */,
+				BA02A87D27E16243001855C6 /* ARContainerView.swift in Sources */,
+				BA02A86E27E15A7D001855C6 /* ContentView.swift in Sources */,
+				BA2557CC27E19A9B00E01F76 /* CustomShader.metal in Sources */,
+				BA02A86C27E15A7D001855C6 /* arsimpleseaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BA02A87427E15A81001855C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA02A87527E15A81001855C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA02A87727E15A81001855C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"arsimplesea/Preview Content\"";
+				DEVELOPMENT_TEAM = J5CY9Q9UP5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = arsimplesea/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "AR Simple Sea";
+				INFOPLIST_KEY_NSCameraUsageDescription = "AR requires a camera.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.atarayosd.arsimplesea;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA02A87827E15A81001855C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"arsimplesea/Preview Content\"";
+				DEVELOPMENT_TEAM = J5CY9Q9UP5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = arsimplesea/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "AR Simple Sea";
+				INFOPLIST_KEY_NSCameraUsageDescription = "AR requires a camera.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.atarayosd.arsimplesea;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA02A86327E15A7D001855C6 /* Build configuration list for PBXProject "arsimplesea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA02A87427E15A81001855C6 /* Debug */,
+				BA02A87527E15A81001855C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA02A87627E15A81001855C6 /* Build configuration list for PBXNativeTarget "arsimplesea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA02A87727E15A81001855C6 /* Debug */,
+				BA02A87827E15A81001855C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA02A86027E15A7D001855C6 /* Project object */;
+}

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "nightTexture2.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
