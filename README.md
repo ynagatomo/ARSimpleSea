@@ -1,6 +1,6 @@
 # AR Simple Sea
 
-![AppIcon]()
+![AppIcon](https://user-images.githubusercontent.com/66309582/158568276-cbe373af-9a0f-4048-802c-fdf2cc7ea63f.png)
 
 A minimal iOS AR app that displays a wave animation using RealityKit2 Geometry Modifier.
 
