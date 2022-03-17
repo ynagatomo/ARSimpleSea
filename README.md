@@ -13,6 +13,13 @@ This project shows a sample code that displays a wave animation using a Geometry
 After some seconds, the image texture of the 3d model will be changed.
 This is also RealityKit 2's feature. Please check the code.
 
+The project includes a USDZ file that has sphere object and plane object. I made it with Blender.
+The plane is for the surface and has a lot of vertices.
+With the Geometry Modifier of RealityKit 2, you can move the vertices and make a wave animation.
+Please check the Metal code and modify as you like.
+
+![Image](https://user-images.githubusercontent.com/66309582/158714098-0cd5138d-052d-4914-b55f-9a8e424bc1d9.png)
+
 This is a minimal implementation. Please modify anything you want, and create your own apps.
 
 ![Image](https://user-images.githubusercontent.com/66309582/158569315-dd4cf888-67e8-46c6-a14c-62ef2e7a32b7.png)
