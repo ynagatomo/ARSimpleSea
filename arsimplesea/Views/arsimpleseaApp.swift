@@ -1,7 +1,6 @@
 //
 //  arsimpleseaApp.swift
 //  arsimplesea
-//
 //  Created by Yasuhito NAGATOMO on 2022/03/16.
 //
 
